@@ -1,0 +1,36 @@
+body {
+	margin: 0;
+}
+header {
+	height: 70px;
+	width: 100%;
+	margin: 0;
+	z-index: 1;
+	position: fixed;
+	border-bottom: thin solid black;
+	background-color: white;
+	padding: 0;
+}
+
+header ul li {
+	display: inline;
+}
+header ul li:hover {
+	cursor: pointer;
+}
+
+#services {
+	height: 500px;
+	background-color: blue;
+	opacity: 0.5;
+}
+#portfolio {
+	height: 500px;
+	background-color: black;
+	opacity: 0.5;
+}
+#contact {
+	height: 500px;
+	background-color: blue;
+	opacity: 0.5;
+}
