@@ -10,27 +10,48 @@ header {
 	border-bottom: thin solid black;
 	background-color: white;
 	padding: 0;
+	top: 0;
 }
-
+article {
+	display: grid;
+	align-content: start;
+}
+.services-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: center;
+}
+h1 {
+	margin: auto;
+}
+header ul {
+	float: right;
+	padding-right: 50px;
+}
 header ul li {
 	display: inline;
+	padding: 20px;
 }
 header ul li:hover {
 	cursor: pointer;
 }
 
+#bryant {
+	height: 500px;
+	background-color: black;
+	margin-top: 70px;
+	justify-content: center;
+	align-content: center;
+}
 #services {
 	height: 500px;
 	background-color: blue;
-	opacity: 0.5;
 }
 #portfolio {
 	height: 500px;
 	background-color: black;
-	opacity: 0.5;
 }
 #contact {
 	height: 500px;
 	background-color: blue;
-	opacity: 0.5;
 }
