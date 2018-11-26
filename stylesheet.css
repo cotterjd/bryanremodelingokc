@@ -44,14 +44,17 @@ header ul li:hover {
 	align-content: center;
 }
 #services {
+	padding-top: 70px;
 	height: 500px;
 	background-color: blue;
 }
 #portfolio {
+	padding-top: 70px;
 	height: 500px;
 	background-color: black;
 }
 #contact {
+	padding-top: 70px;
 	height: 500px;
 	background-color: blue;
 }
