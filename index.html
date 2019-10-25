@@ -7,10 +7,10 @@
      <meta charset="UTF-8">
 	   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	   <meta name="viewport" content="width=device-width,initial-scale=1">
-     <title>title</title>
-     <meta name="author" content="name">
-	   <meta name="description" content="description here">
-	   <meta name="keywords" content="keywords,here">
+     <title>Bryant Construction</title>
+     <meta name="author" content="Jordan Cotter">
+	   <meta name="description" content="Bryant Construction and Remodeling">
+	   <meta name="keywords" content="painting,construction,remodeling,additions">
 	   <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
 	   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=font1|font2|etc" type="text/css">
 	   <link rel="stylesheet" href="stylesheet.css" type="text/css">
@@ -26,43 +26,57 @@
      </script>
 	 </head>
 	 <body>
-			  
-		<header>
-			<ul>
-				<li><a href="#services">Services</a></li>
-				<li><a href="#portfolio">Portfolio</a></li>
-				<li><a href="#contact">Contact</a></li>
-			</ul>
-		</header>
-
-		<article id="bryant">
-			<h1><font color="blue">Bryant Construction</font></h1>
-			<h4><font color="blue">GETTING THE JOB DONE RIGHT</font></h4>
-		</article>
-		<article id="services">
-			<h1>Services</h1>
-			<div class="services-container">
-			  <span>Painting</span>
-			  <span>Remodeling</span>
-			  <span>Additions</span>
-			</div>
-		</article>
-
-		<article id="portfolio">
-			<h1><font color="blue">Portfolio</font></h1>
-		</article>
-
-		<article id="contact">
-			<h1>Contact</h1>
-		</article>
+     <div class="desktop-view">
+		   <article id="bryant">
+         <em class="slogan">
+           Getting the job done right.
+         </em>
+         <img width="400px" src="bryant-logo.png" />
+         <div class="call">
+           <em>Call today for a
+           free quote on your project!
+           (405) 500-5091</em>
+         </div>
+		   </article>
+       <!--<form>
+         <input type="text" placeholder="name" />
+         <input type="text" placeholder="email" />
+         <textarea placeholder="message">
+         </textarea>
+       </form>-->
+     </div>
+     <div class="mobile-view">
+       <img width="400px" src="bryant-logo.png" />
+       <div class="call">
+         <em>Call today for a
+         free quote on your project!
+         (405) 500-5091</em>
+       </div>
+       <!--<form>
+         <font color="#fff">or send us a message</font>
+         <input type="text" placeholder="name" />
+         <input type="text" placeholder="email" />
+         <textarea placeholder="message" cols="5" rows="30">
+         </textarea>
+         <input type="file" />
+       </form>-->
+     </div>
 	  <script type="text/javascript">
      	 function autorun() {
-	  		     
+
 	  	 }
        if (window.addEventListener) window.addEventListener("load", autorun, false);
 	     else if (window.attachEvent) window.attachEvent("onload", autorun);
 	  	 else window.onload = autorun;
 	  </script>
+    <script>
+      function initFreshChat() {
+        window.fcWidget.init({
+          token: "184d1f13-97f5-4503-a0f4-d89207489725",
+          host: "https://wchat.freshchat.com"
+        });
+      }
+      function initialize(i,t){var e;i.getElementById(t)?initFreshChat():((e=i.createElement("script")).id=t,e.async=!0,e.src="https://wchat.freshchat.com/js/widget.js",e.onload=initFreshChat,i.head.appendChild(e))}function initiateCall(){initialize(document,"freshchat-js-sdk")}window.addEventListener?window.addEventListener("load",initiateCall,!1):window.attachEvent("load",initiateCall,!1);
+    </script>
 	</body>
 </html>
-
