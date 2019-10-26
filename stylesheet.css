@@ -1,9 +1,10 @@
 :root {
 	--primary: #77fffc;
+	--bg: #060807;
 }
 body {
 	margin: 0;
-	background-color: black;
+	background-color: var(--bg);
 	font-family: sans;
 	color: #fff;
 	max-width: 1400px;
